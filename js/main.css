@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+header h1{
+    text-align: center;
+    line-height: 50vh;
+}
+
+main{
+    transform: translateX(55vh);
+}
+
+main input{
+    width: 30vh;
+    height: 3vh;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+    border: 3px solid rgba(0, 40, 85, 0.562);
+    border-radius: 1vh;
+    transition: .5s;
+}
+
+main input:focus{
+    box-shadow: 0 0 0 0;
+    border: 3px solid rgb(0, 40, 85);
+    outline: 0;
+} 
+
+main button{
+    cursor: pointer;
+    width: 20vh;
+    height: 3vh;
+    margin-top: 8vh;
+    transform: translateX(22vh);
+    border: 3px solid rgba(0, 40, 85, 0.562);
+    border-radius: 1vh;
+    transition: 1s;
+}
+
+main button:hover{
+    border: 3px solid rgb(0, 40, 85);
+}
+
+.show-number{
+    margin-top: 20vh;
+    margin-right: 110vh;
+}
+
+.show-number h3{
+    font-size: 4vh;
+    text-align: center;
+}
