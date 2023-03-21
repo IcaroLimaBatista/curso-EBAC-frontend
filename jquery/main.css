@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0vh;
+    padding: 0vh;
+
+}
+
+header{
+    width: 100%;
+}
+
+.header-top{
+    height: 10vh;
+    background-color: #011F26;
+}
+
+.header-top h1{
+    color: #6F8C42;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding-top: 3vh;
+}
+
+/* ESTILIZANDO FORMULARIO E BOTÕES */
+
+.input-tarefas{
+    text-align: center;
+    height: 20vh;
+    background-color: #01403A;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+form h3{
+    margin-top: 1vh;
+    font-weight:100;
+}
+
+form input{
+    width: 50vh;
+    height: 5vh;
+    border: none;
+    border-radius: .5vh;
+    margin-left: 1vh;
+}
+
+.botoes-header button{
+    color: black;
+    width: 10vh;
+    height: 2.5vh;
+    margin-top: 1vh;
+    margin-left: 3vh;
+    border: none;
+    border-radius: .5vh;
+    font-weight: bold;
+}
+
+#enviar{
+    cursor: pointer;
+    background-color: #F2B705;
+    transition: .5s;
+}
+
+#enviar:hover{
+    height: 3vh;
+    border: 2px solid #ffbf00;
+    background-color: #ffe69b;
+}
+
+#fechar{
+    cursor: pointer;
+    background-color: red;
+    transition: .5s;
+}
+
+#fechar:hover{
+    height: 3vh;
+    border: 2px solid #ff0000;
+    background-color: #ff9b9b;
+}
+
+/* ESTILIZANDO CARDS DAS TAREFAS */
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li{
+    cursor: pointer;
+    display: flex;
+    margin-top: 10vh;
+    width: 80%;
+    height: 10vh;
+    border: 8px solid #F2B705;
+    background-color: #F29F05;
+    border-radius: 2vh;
+}
+
+ul li h2{
+    color: white;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+}
