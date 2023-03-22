@@ -15,7 +15,7 @@ $(document).ready(function(){
 
             // RISCO NO TEXTO AO CLICAR NA TAREFA
             $("li").click(function(){
-                $("li").css("text-decoration", "line-through");
+                $(this).css("text-decoration", "line-through");
            })  
         }
 
